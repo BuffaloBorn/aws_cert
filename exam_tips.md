@@ -67,3 +67,13 @@
 * Once enabled, versioning cannot be disabled, only suspended.
 * Integrates with Lifecycle rules
 * Versioning's MFA Delete capability, which uses multi-factor authentication, can be used to provide an additional layer of security. 
+
+### S3 - Cross Region Replication 
+
+* Versioning must be enabled on both the source and destination buckets. 
+* Regions must be unique. 
+* Files in an existing bucket are not replicated automatically. All subsequent updated files will be replicated automatically. 
+* You cannot replicate to multiple buckets or use daisy chaining (at this time.)
+* Delete marker are replicated. 
+* Deleting individual versions or delete markers will not be replicated. 
+* Understand what Cross Region Replication is high level. 
