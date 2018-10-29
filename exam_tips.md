@@ -1,3 +1,22 @@
+### IAM - Identity Access Management 
+
+* IAM consists of the following:
+    - Users 
+    - Groups ( A way to group our users and apply polices to them collectively ) 
+    - Roles 
+    - Policy Documents.
+        - are made up of javascript object notation. 
+* IAM is universal. It does not apply to regions at this time. 
+    - region that you perform IAM actions in does not matter.
+* The "root account" is simply the account created when first setup your AWS account. 
+    - It has complete Admin access by default.
+* New Users have NO permissions when first created. 
+* New Users are assigned Access Key ID & Secret Access Keys when first created.
+* These are not the same as a password, and you cannot use Access Key ID & Secret Access Key to login in to console. You can use this to access AWS via the APIs ans Command Line however.
+* You only get to view these once. If you lose them, you have to regenerate them. So save them in secure location. 
+* Always setup Multifactor Authentication on your root account.
+* You can create and customize your own password rotation policies.
+   
 ### S3 - Exam Tips For S3 101
 
 * Remember that S3 is Object-based: ie allows you to upload files
@@ -33,3 +52,12 @@
 * Upload an object to S3 receive
 * S3, S3-IA, S3 Reduced Redundancy Storage
 * Encryption  
+    - Client Side Encryption
+    - Server Side Encryption
+        - Server Side Encryption with Amazon S3 Managed Keys (SSE-S3)
+        - Server Side Encryption with KMS (SSE-KMS)
+        - Server Side Encryption with Customer Provided Keys (SSE-C)
+ * Control access to buckets using either a bucket ACL or using Bucket Polices
+ * BT DEFAULT ARE PRIVATE AND ALL OBJECTS STORED INSIDE THEM ARE PRIVATE
+        
+    
