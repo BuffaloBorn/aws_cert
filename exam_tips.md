@@ -77,3 +77,13 @@
 * Delete marker are replicated. 
 * Deleting individual versions or delete markers will not be replicated. 
 * Understand what Cross Region Replication is high level. 
+
+### S3 - Lifecycle Management 
+
+* Can be used in conjuction wiht versioning
+* Can be applied to current versions and previous versions.
+* Following actions can now be down:
+    - Transition to the standard - Infrequent Access Storage Class
+    (30 days after the creation date.) 
+   - Archive to the Glacier Storage Class (30 days after IA, if relevant)
+* Permanently Delete
