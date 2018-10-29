@@ -60,4 +60,10 @@
  * Control access to buckets using either a bucket ACL or using Bucket Polices
  * BT DEFAULT ARE PRIVATE AND ALL OBJECTS STORED INSIDE THEM ARE PRIVATE
         
-    
+ ### S3 - Versioning - Exam Tips
+  
+* Stores all versions of an object (including all writes and even if you delete an object )
+* Great backup tool
+* Once enabled, versioning cannot be disabled, only suspended.
+* Integrates with Lifecycle rules
+* Versioning's MFA Delete capability, which uses multi-factor authentication, can be used to provide an additional layer of security. 
