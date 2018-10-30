@@ -107,4 +107,13 @@
     - Stored Volumes - Entire Dataset is stored on site and is asynchronously backed up to S3.
     - Cached Volumes - Entire Dataset is stored on S3 and the most frequently accessed data is cached on site. 
  * Gateway Virtual Tape Library (VTL)
-    - Used for backup ans uses popular backup applications like NetBackup, Backup Exec, Veeam etc.        
+    - Used for backup ans uses popular backup applications like NetBackup, Backup Exec, Veeam etc.
+    
+### S3 - Snowball
+
+* Understand what snowball is
+* Understand what Import Export is
+    - from historical perceptive 
+* Snowball can do 
+    - import to S3
+    - export from S3  
