@@ -87,3 +87,15 @@
     (30 days after the creation date.) 
    - Archive to the Glacier Storage Class (30 days after IA, if relevant)
 * Permanently Delete
+
+### CloudFront - Exam Tips
+
+* Edge Location - This is the location where content will be cached. This separate to AWS Region/AZ
+* Origin - This is the origin of all the files that the CDN will distribute. This can be either an S3 Bucket, an EC2 instance, an Elastic Load Balancer or Route53.
+* Distribution - This is the name given the CDN which consists of a collection of Edge Locations.
+    - Web Distribution - Typically used for websites.
+    - RTMP - Used for media streaming
+* Edge locations are not just READ only, you can write to them too. (ie. put an object on them)
+* Objects are cached for the life of the TTL (Time To Live)
+* You can clear cached objects, but you will be charged. 
+     
