@@ -88,7 +88,7 @@
    - Archive to the Glacier Storage Class (30 days after IA, if relevant)
 * Permanently Delete
 
-### CloudFront - Exam Tips
+### S3 - CloudFront - Exam Tips
 
 * Edge Location - This is the location where content will be cached. This separate to AWS Region/AZ
 * Origin - This is the origin of all the files that the CDN will distribute. This can be either an S3 Bucket, an EC2 instance, an Elastic Load Balancer or Route53.
@@ -99,3 +99,12 @@
 * Objects are cached for the life of the TTL (Time To Live)
 * You can clear cached objects, but you will be charged. 
      
+     
+ ### S3 - Storage Gateway
+ 
+ * File Gateway - For flat files, stored directly on S3
+ * Volume Gateway: 
+    - Stored Volumes - Entire Dataset is stored on site and is asynchronously backed up to S3.
+    - Cached Volumes - Entire Dataset is stored on S3 and the most frequently accessed data is cached on site. 
+ * Gateway Virtual Tape Library (VTL)
+    - Used for backup ans uses popular backup applications like NetBackup, Backup Exec, Veeam etc.        
