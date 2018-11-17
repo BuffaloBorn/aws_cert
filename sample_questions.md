@@ -76,4 +76,15 @@ Which component is MOST likely to need re-architecting to be able to scale to ac
     
 Answer: C
 
- 
+7) An application saves the logs to an S3 bucket. A user wants to keep the logs for one month for troubleshooting 
+purposes, and then purge the logs.
+
+What feature will enable this?
+
+    A. Adding a bucket policy on the S3 bucket.
+    B. Configuring lifecycle configuration rules on the S3 bucket.
+    C. Creating an IAM policy for the S3 bucket.
+    D. Enabling CORS on the S3 bucket.
+
+Answer: A
+
