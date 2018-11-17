@@ -11,3 +11,14 @@ Which solution will meet the security team’s mandate?
     
 Answer: D
 
+2) A company is developing a highly available web application using stateless web servers. 
+
+Which services are suitable for storing session state data? (Select TWO.)
+
+    A. CloudWatch
+    B. DynamoDB
+    C. Elastic Load Balancing
+    D. ElastiCache
+    E. Storage Gateway
+    
+Answer: B, D
