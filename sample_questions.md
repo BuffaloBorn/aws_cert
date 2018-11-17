@@ -101,3 +101,16 @@ Which solution will resolve the security concern?
     
 Answer: C
 
+9) An organization is building an Amazon Redshift cluster in their shared services VPC. The cluster will host sensitive 
+data.
+
+How can the organization control which networks can access the cluster?
+
+    A. Run the cluster in a different VPC and connect through VPC peering.
+    B. Create a database user inside the Amazon Redshift cluster only for users on the network.
+    C. Define a cluster security group for the cluster that allows access from the allowed networks.
+    D. Only allow access to networks that connect with the shared services network via VPN.
+
+Answer: C
+
+
