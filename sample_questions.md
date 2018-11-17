@@ -88,3 +88,16 @@ What feature will enable this?
 
 Answer: A
 
+8) An application running on EC2 instances processes sensitive information stored on Amazon S3. The information is 
+accessed over the Internet. The security team is concerned that the Internet connectivity to Amazon S3 is a security 
+risk.
+
+Which solution will resolve the security concern?
+   
+    A. Access the data through an Internet Gateway.
+    B. Access the data through a VPN connection.
+    C. Access the data through a NAT Gateway.
+    D. Access the data through a VPC endpoint for Amazon S3.
+    
+Answer: C
+
