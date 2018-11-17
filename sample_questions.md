@@ -49,4 +49,14 @@ Which option will meet these requirements?
     
 Answer: C
  
- 
+5) A Solutions Architect is designing a critical business application with a relational database that runs on an EC2 
+instance. It requires a single EBS volume that can support up to 16,000 IOPS.
+
+Which Amazon EBS volume type can meet the performance requirements of this application?
+
+    A. EBS Provisioned IOPS SSD
+    B. EBS Throughput Optimized HDD
+    C. EBS General Purpose SSD
+    D. EBS Cold HDD
+    
+Answer: C
