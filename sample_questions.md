@@ -113,4 +113,16 @@ How can the organization control which networks can access the cluster?
 
 Answer: C
 
+10) A Solutions Architect is designing an online shopping application running in a VPC on EC2 instances behind an ELB 
+Application Load Balancer. The instances run in an Auto Scaling group across multiple Availability Zones. The 
+application tier must read and write data to a customer managed database cluster. There should be no access to the 
+database from the Internet, but the cluster must be able to obtain software patches from the Internet.
 
+Which VPC design meets these requirements?
+    
+    A. Public subnets for both the application tier and the database cluster
+    B. Public subnets for the application tier, and private subnets for the database cluster
+    C. Public subnets for the application tier and NAT Gateway, and private subnets for the database cluster
+    D. Public subnets for the application tier, and private subnets for the database cluster and NAT Gateway
+
+Answer: C
