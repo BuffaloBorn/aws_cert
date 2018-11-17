@@ -55,7 +55,7 @@
     - durability - 99.9999999999% 
 * S3-IA
     - availability - 99.99%
-    - durability - 
+    - durability - 99.999999999%
 * S3 Reduced Redundancy Storage
     - availability - 99.99%
     - durability - 99.99%
