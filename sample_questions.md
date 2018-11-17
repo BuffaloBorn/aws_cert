@@ -60,3 +60,20 @@ Which Amazon EBS volume type can meet the performance requirements of this appli
     D. EBS Cold HDD
     
 Answer: C
+
+
+6) A web application allows customers to upload orders to an S3 bucket. The resulting Amazon S3 events trigger a Lambda 
+function that inserts a message to an SQS queue. A single EC2 instance reads messages from the queue, processes them, 
+and stores them in an DynamoDB table partitioned by unique order ID. Next month traffic is expected to increase by a 
+factor of 10 and a Solutions Architect is reviewing the architecture for possible scaling problems.
+
+Which component is MOST likely to need re-architecting to be able to scale to accommodate the new traffic?
+
+    A. Lambda function
+    B. SQS queue
+    C. EC2 instance
+    D. DynamoDB table
+    
+Answer: C
+
+ 
