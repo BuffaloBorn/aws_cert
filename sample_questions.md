@@ -22,3 +22,16 @@ Which services are suitable for storing session state data? (Select TWO.)
     E. Storage Gateway
     
 Answer: B, D
+
+3) Company salespeople upload their sales figures daily. A Solutions Architect needs a durable storage solution for 
+these documents that also protects against users accidentally deleting important documents.
+
+Which action will protect against unintended user actions?
+
+    A. Store data in an EBS volume and create snapshots once a week.
+    B. Store data in an S3 bucket and enable versioning.
+    C. Store data in two S3 buckets in different AWS regions.
+    D. Store data on EC2 instance storage.
+    
+Answer: B
+
