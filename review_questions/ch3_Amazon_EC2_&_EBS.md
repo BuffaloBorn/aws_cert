@@ -68,12 +68,12 @@ latency and high bandwidth between instances. What combination of the following 
 allow this? (Choose 3 answers)
 
 - **A. Use an instance type with 10 Gbps network performance.**
-- B. Put the instances in a placement group.
-- **C. Use Dedicated Instances.**
+- **B. Put the instances in a placement group.**
+- C. Use Dedicated Instances.
 - **D. Enable enhanced networking on the instances.**
 - E. Use Reserved Instances.
 
-Answer: A, C, D
+Answer: A, B, D
 
 Which Amazon Elastic Compute Cloud (Amazon EC2) feature ensures that your
 instances will not share a physical host with instances from any other AWS customer?
@@ -89,10 +89,10 @@ Which of the following are true of instance stores? (Choose 2 answers)
 
 - A. Automatic backups
 - **B. Data is lost when the instance stops.**
-- C. Very high IOPS
+- **C. Very high IOPS**
 - D. Charge is based on the total amount of storage provisioned.
 
-Answer: B
+Answer: B, C
 
 Which of the following are features of Amazon Elastic Block Store (Amazon EBS)?
 (Choose 2 answers)
@@ -122,17 +122,17 @@ How long will it be before the data is available?
 - **C. It depends on the amount of data stored on the volume.**
 - D. It depends on whether the attached instance is an Amazon EBS-optimized instance.
 
-Answer:
+Answer: C
 
 You have a workload that requires 15,000 consistent IOPS for data that must be durable.
 What combination of the following steps do you need? (Choose 2 answers)
 
-- A. Use an Amazon Elastic Block Store (Amazon EBS)-optimized instance.
+- **A. Use an Amazon Elastic Block Store (Amazon EBS)-optimized instance.**
 - B. Use an instance store.
 - **C. Use a Provisioned IOPS SSD volume.**
 - D. Use a magnetic volume.
 
-Answer: C
+Answer: A, C
 
 Which of the following can be accomplished through bootstrapping?
 
@@ -155,11 +155,11 @@ Answer: C
 VM Import/Export can import existing virtual machines as: (Choose 2 answers)
 
 - A. Amazon Elastic Block Store (Amazon EBS) volumes
-- B. Amazon Elastic Compute Cloud (Amazon EC2) instances
+- **B. Amazon Elastic Compute Cloud (Amazon EC2) instances**
 - **C. Amazon Machine Images (AMIs)**
 - D. Security groups
 
-Answer: C
+Answer: B, C
 
 Which of the following can be used to address an Amazon Elastic Compute Cloud
 (Amazon EC2) instance over the web? (Choose 2 answers)
