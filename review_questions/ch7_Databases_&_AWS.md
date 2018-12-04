@@ -30,10 +30,10 @@ write data to the site. What should you suggest to increase performance?
 
 - A. Alter the connection string so that if a user is going to write data, it is written to the secondary copy of the Multi-AZ database.
 - B. Alter the connection string so that if a user is going to write data, it is written to the primary copy of the Multi-AZ database.
-- C. Recommend that the company use read replicas, and distribute the traffic across multiple read replicas.
+- **C. Recommend that the company use read replicas, and distribute the traffic across multiple read replicas.**
 - D. Migrate the MySQL database to Amazon Redshift to take advantage of columnar storage and maximize performance.
 
-Answer:
+Answer: C
 
 4.Which AWS Cloud service is best suited for Online Analytics Processing (OLAP)?
 
@@ -51,11 +51,11 @@ causing an outage. How can you recover the missing data while minimizing the dur
 of the outage?
 
 - A. Perform an undo operation and recover the table.
-- B. Restore the database from a recent automated DB snapshot.
+- **B. Restore the database from a recent automated DB snapshot.**
 - C. Restore only the dropped table from the DB snapshot.
 - D. The data cannot be recovered.
 
-Answer:
+Answer: B
 
 6.Which Amazon Relational Database Service (Amazon RDS) database engines support
 Multi-AZ?
@@ -106,12 +106,12 @@ staff. You need to install Microsoft SQL Server Enterprise edition quickly to su
 accounting back office application on Amazon Relational Database Service (Amazon
 RDS). What should you do?
 
-- **A. Launch an Amazon RDS DB Instance, and select Microsoft SQL Server Enterprise Edition under the Bring Your Own License (BYOL) model.**
-- B. Provision SQL Server Enterprise Edition using the License Included option from the Amazon RDS Console.
+- A. Launch an Amazon RDS DB Instance, and select Microsoft SQL Server Enterprise Edition under the Bring Your Own License (BYOL) model.
+- **B. Provision SQL Server Enterprise Edition using the License Included option from the Amazon RDS Console.**
 - C. SQL Server Enterprise edition is only available via the Command Line Interface (CLI). Install the command-line tools on your laptop, and then provision your new Amazon RDS Instance using the CLI.
 - D. You cannot use SQL Server Enterprise edition on Amazon RDS. You should install this on to a dedicated Amazon Elastic Compute Cloud (Amazon EC2) Instance.
 
-Answer: A
+Answer: B
 
 11.You are building the database tier for an enterprise application that gets occasional activity throughout the day. Which storage type should you select as your default option?
 
@@ -148,7 +148,7 @@ Answer: A, C, D
 - **C. Add a read replica DB instance, and configure the client’s application logic to use a read-replica.**
 - D. Create a caching environment using ElastiCache to cache frequently used data. Update the application logic to read/write from the cache.
 
-Answer: C
+Answer: A, C
 
 15.You are building a large order processing system and are responsible for securing the database. Which actions will you take to protect the data? (Choose 3 answers)
 
@@ -188,22 +188,22 @@ application. This table will have the following attributes: Username (String), T
 (Number), Message (String). Which attribute should you use as the partition key? The
 sort key?
 
-- A. Username, Timestamp
+- **A. Username, Timestamp**
 - B. Username, Message
-- **C. Timestamp, Message**
+- C. Timestamp, Message
 - D. Message, Timestamp
 
-Answer: C
+Answer: A
 
 19.Which of the following statements about Amazon DynamoDB tables are true? (Choose 2
 answers)
 
 - A. Global secondary indexes can only be created when the table is being created.
-- B. Local secondary indexes can only be created when the table is being created.
+- **B. Local secondary indexes can only be created when the table is being created.**
 - C. You can only have one global secondary index.
-- D. You can only have one local secondary index.
+- **D. You can only have one local secondary index.**
 
-Answer:
+Answer: B, D
 
 20.Which of the following workloads are a good fit for running on Amazon Redshift?
 (Choose 2 answers)
