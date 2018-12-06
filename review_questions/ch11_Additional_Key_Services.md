@@ -90,11 +90,11 @@ Answer: D
 encrypt data?
 
 - A.  Password-based encryption
-- B.  Asymmetric
+- **B.  Asymmetric**
 - C.  Shared secret
 - D.  Envelope encryption
 
-Answer: 
+Answer: B
 
 10.Which AWS service records Application Program Interface (API) calls made on your
 account and delivers log files to your Amazon Simple Storage Service (Amazon S3) bucket?
@@ -140,13 +140,13 @@ analytics in a cost-effective way?
 and run the MapReduce jobs.
 - B.  Create an application that reads the information of the Amazon S3 bucket and runs
 it through an Amazon Kinesis stream.
-- C.  Run a transient Amazon EMR cluster, and run the MapReduce jobs against the data
-directly in Amazon S3.
+- **C.  Run a transient Amazon EMR cluster, and run the MapReduce jobs against the data
+directly in Amazon S3.**
 - D.  Launch a d2.8xlarge (32 vCPU, 244GB RAM) Amazon Elastic Compute Cloud
 (Amazon EC2) instance, and run an application to read and process each object
 sequentially.
 
-Answer: 
+Answer: C
 
 14.Which service allows you to process nearly limitless streams of data in flight?
 
