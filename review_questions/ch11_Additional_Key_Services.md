@@ -69,12 +69,12 @@ an Amazon Virtual Private Cloud (Amazon VPC) without establishing a trust relati
 with the existing on-premises Active Directory. Which of the following is the best
 approach to achieve this goal?
 
-- A.  Create and connect an AWS Directory Service AD Connector.
+- **A.  Create and connect an AWS Directory Service AD Connector.**
 - B.  Create and connect an AWS Directory Service Simple A- D. 
 - C.  Create and connect an AWS Directory Service for Microsoft Active Directory (Enterprise Edition).
 - D.  None of the above
 
-Answer: 
+Answer: A
 
 8.Which of the following are AWS Key Management Service (AWS KMS) keys that will
 never exit AWS unencrypted?
@@ -82,9 +82,9 @@ never exit AWS unencrypted?
 - A.  AWS KMS data keys
 - B.  Envelope encryption keys
 - C.  AWS KMS Customer Master Keys (CMKs)
-- D.  A and C
+- **D.  A and C**
 
-Answer: 
+Answer: D
 
 9.Which cryptographic method is used by AWS Key Management Service (AWS KMS) to
 encrypt data?
@@ -99,19 +99,19 @@ Answer:
 10.Which AWS service records Application Program Interface (API) calls made on your
 account and delivers log files to your Amazon Simple Storage Service (Amazon S3) bucket?
 
-- A.  AWS CloudTrail
+- **A.  AWS CloudTrail**
 - B.  Amazon CloudWatch
 - C.  Amazon Kinesis
 - D.  AWS Data Pipeline
 
-Answer: 
+Answer: A
 
 11. You are trying to decrypt ciphertext with AWS KMS and the decryption operation is
 failing. Which of the following are possible causes? (Choose 2 answers)
 
 - A.  The private key does not match the public key in the ciphertext.
 - B.  The plaintext was encrypted along with an encryption context, and you are not
-providing the identical encryption context when calling the Decrypt API.
+      providing the identical encryption context when calling the Decrypt API.
 - C.  The ciphertext you are trying to decrypt is not valid.
 - D.  You are not providing the correct symmetric key to the Decrypt API.
 
