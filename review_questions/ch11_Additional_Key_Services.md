@@ -150,12 +150,12 @@ Answer:
 
 14.Which service allows you to process nearly limitless streams of data in flight?
 
-- A.  Amazon Kinesis Firehose
+- **A.  Amazon Kinesis Firehose**
 - B.  Amazon Elastic MapReduce (Amazon EMR)
 - C.  Amazon Redshift
 - D.  Amazon Kinesis Streams
 
-Answer: 
+Answer: A
 
 15.What combination of services enable you to copy daily 50TB of data to Amazon storage,
 process the data in Hadoop, and store the results in a large data warehouse?
@@ -164,22 +164,22 @@ process the data in Hadoop, and store the results in a large data warehouse?
 EMR), and Amazon Elastic Compute Cloud (Amazon EC2)
 - B.  Amazon Elastic Block Store (Amazon EBS), Amazon Data Pipeline, Amazon EMR,
 and Amazon Redshift
-- C.  Amazon Simple Storage Service (Amazon S3), Amazon Data Pipeline, Amazon EMR,
-and Amazon Redshift
+- **C.  Amazon Simple Storage Service (Amazon S3), Amazon Data Pipeline, Amazon EMR,
+and Amazon Redshift**
 - D.  Amazon S3, Amazon Simple Workflow, Amazon EMR, and Amazon DynamoDB
 
-Answer: 
+Answer: C
 
 16.Your company has 50,000 weather stations around the country that send updates every 2
 seconds. What service will enable you to ingest this stream of data and store it to
 Amazon Simple Storage Service (Amazon S3) for future processing?
 
 - A.  Amazon Simple Queue Service (Amazon SQS)
-- B.  Amazon Kinesis Firehose
+- **B.  Amazon Kinesis Firehose**
 - C.  Amazon Elastic Compute Cloud (Amazon EC2)
 - D.  Amazon Data Pipeline
 
-Answer: 
+Answer: B
 
 17.Your organization uses Chef heavily for its deployment automation. What AWS cloud
 service provides integration with Chef recipes to start new application server instances,
@@ -187,33 +187,33 @@ configure application server software, and deploy applications?
 
 - A.  AWS Elastic Beanstalk
 - B.  Amazon Kinesis
-- C.  AWS OpsWorks
+- **C.  AWS OpsWorks**
 - D.  AWS CloudFormation
 
-Answer: 
+Answer: C
 
 18.A firm is moving its testing platform to AWS to provide developers with instant access to
 clean test and development environments. The primary requirement for the firm is to
 make environments easily reproducible and fungible. What service will help the firm
 meet their requirements?
 
-- A.  AWS CloudFormation
+- **A.  AWS CloudFormation**
 - B.  AWS Config
 - C.  Amazon Redshift
 - D.  AWS Trusted Advisor
 
-Answer: 
+Answer: A
 
 19.Your company’s IT management team is looking for an online tool to provide
 recommendations to save money, improve system availability and performance, and to
 help close security gaps. What can help the management team?
 
 - A.  Cloud-init
-- B.  AWS Trusted Advisor
+- **B.  AWS Trusted Advisor**
 - C.  AWS Config
 - D.  Configuration Recorder
 
-Answer: 
+Answer: B
 
 20.Your company works with data that requires frequent audits of your AWS environment
 to ensure compliance with internal policies and best practices. In order to perform these
@@ -221,12 +221,12 @@ audits, you need access to historical configurations of your resources to evalua
 configuration changes. Which service will provide the necessary information for your
 audits?
 
-- A.  AWS Config
+- **A.  AWS Config**
 - B.  AWS Key Management Service (AWS KMS)
 - C.  AWS CloudTrail
 - D.  AWS OpsWorks
 
-Answer: 
+Answer: A 
 
 21.All of the website deployments are currently done by your company’s development team.
 With a surge in website popularity, the company is looking for ways to be more agile
@@ -237,6 +237,6 @@ balancers, firewalls, and networks?
 - A.  AWS Config
 - B.  AWS Trusted Advisor
 - C.  Amazon Kinesis
-- D.  AWS Elastic Beanstalk
+- **D.  AWS Elastic Beanstalk**
 
-Answer: 
+Answer: D
