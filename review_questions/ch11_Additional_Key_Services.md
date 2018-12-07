@@ -106,16 +106,16 @@ account and delivers log files to your Amazon Simple Storage Service (Amazon S3)
 
 Answer: A
 
-11. You are trying to decrypt ciphertext with AWS KMS and the decryption operation is
+11.You are trying to decrypt ciphertext with AWS KMS and the decryption operation is
 failing. Which of the following are possible causes? (Choose 2 answers)
 
 - A.  The private key does not match the public key in the ciphertext.
-- B.  The plaintext was encrypted along with an encryption context, and you are not
-      providing the identical encryption context when calling the Decrypt API.
-- C.  The ciphertext you are trying to decrypt is not valid.
+- **B.  The plaintext was encrypted along with an encryption context, and you are not
+      providing the identical encryption context when calling the Decrypt API.**
+- **C.  The ciphertext you are trying to decrypt is not valid.**
 - D.  You are not providing the correct symmetric key to the Decrypt API.
 
-Answer: 
+Answer: B, C
 
 12.Your company has 30 years of financial records that take up 15TB of on-premises
 storage. It is regulated that you maintain these records, but in the year you have worked
@@ -124,11 +124,11 @@ center is already filling the bandwidth of its Internet connection, what is an a
 way to store the data on the most appropriate cloud storage?
 
 - A.  AWS Import/Export to Amazon Simple Storage Service (Amazon S3)
-- B.  AWS Import/Export to Amazon Glacier
+- **B.  AWS Import/Export to Amazon Glacier**
 - C.  Amazon Kinesis
 - D.  Amazon Elastic MapReduce (AWS EMR)
 
-Answer: 
+Answer: B
 
 13.Your company collects information from the point of sale registers at all of its franchise
 locations. Each month these processes collect 200TB of information stored in Amazon
@@ -150,12 +150,12 @@ Answer: C
 
 14.Which service allows you to process nearly limitless streams of data in flight?
 
-- **A.  Amazon Kinesis Firehose**
+- A.  Amazon Kinesis Firehose
 - B.  Amazon Elastic MapReduce (Amazon EMR)
 - C.  Amazon Redshift
-- D.  Amazon Kinesis Streams
+- **D.  Amazon Kinesis Streams**
 
-Answer: A
+Answer: D
 
 15.What combination of services enable you to copy daily 50TB of data to Amazon storage,
 process the data in Hadoop, and store the results in a large data warehouse?
