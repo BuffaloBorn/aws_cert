@@ -1,13 +1,15 @@
 1.AWS communicates with customers regarding its security and control environment
 through a variety of different mechanisms. Which of the following are valid
 mechanisms? (Choose 3 answers)
-- A. Obtaining industry certifications and independent third-party attestations
-- B. Publishing information about security and AWS control practices via the website,
-whitepapers, and blogs
-- C. Directly providing customers with certificates, reports, and other documentation
-(under NDA in some cases)
+- **A. Obtaining industry certifications and independent third-party attestations**
+- **B. Publishing information about security and AWS control practices via the website,
+whitepapers, and blogs**
+- **C. Directly providing customers with certificates, reports, and other documentation
+(under NDA in some cases)**
 - D. Allowing customers’ auditors direct access to AWS data centers, infrastructure, and
 senior staff
+
+Answer: A, B, C
 
 2.Which of the following statements is true when it comes to the AWS shared responsibility model?
 
@@ -15,10 +17,12 @@ senior staff
 not extend to IT controls.
 - B. The shared responsibility model is only applicable for customers who want to be
 compliant with SOC 1 Type II.
-- C. The shared responsibility model is not just limited to security considerations; it also
-extends to IT controls.
+- **C. The shared responsibility model is not just limited to security considerations; it also
+extends to IT controls.**
 - D. The shared responsibility model is only applicable for customers who want to be
 compliant with ISO 27001.
+
+Answer: C
 
 3.AWS provides IT control information to customers in which of the following ways?
 
@@ -88,7 +92,7 @@ responsibilities of customers to AWS?
 - A. AWS and customers both communicate their security and control environment
 information to each other at all times.
 - B. AWS publishes information about the AWS security and control practices online,
-and directly to customers under ND- A. Customers do not need to communicate their
+and directly to customers under NDA. Customers do not need to communicate their
 use and configurations to AWS.
 - C. Customers communicate their use and configurations to AWS at all times. AWS
 does not communicate AWS security and control practices to customers for security
@@ -97,6 +101,8 @@ reasons.
 confidential and do not share them in order to ensure the greatest security for all
 parties.
 
+Answer: C
+
 10.When it comes to risk management, which of the following is true?
 
 - A. AWS does not develop a strategic business plan; risk management and mitigation is
@@ -104,21 +110,25 @@ entirely the responsibility of the customer.
 - B. AWS has developed a strategic business plan to identify any risks and implemented
 controls to mitigate or manage those risks. Customers do not need to develop and
 maintain their own risk management plans.
-- C. AWS has developed a strategic business plan to identify any risks and has
+- **C. AWS has developed a strategic business plan to identify any risks and has
 implemented controls to mitigate or manage those risks. Customers should also
 develop and maintain their own risk management plans to ensure they are
-compliant with any relevant controls and certifications.
+compliant with any relevant controls and certifications.**
 - D. Neither AWS nor the customer needs to worry about risk management, so no plan is
 needed from either party.
+
+Answer: C
 
 11.The AWS control environment is in place for the secure delivery of AWS Cloud service
 offerings. Which of the following does the collective control environment NOT explicitly
 include?
 
 - A. People
-- B. Energy
+- **B. Energy**
 - C. Technology
 - D. Processes
+
+Answer: B
 
 12.Who is responsible for the configuration of security groups in an AWS environment?
 
@@ -128,11 +138,11 @@ groups are correctly and securely configured.
 configured. Customers do not need to worry about security group configuration.
 - C. Neither AWS nor the customer is responsible for the configuration of security
 groups; security groups are intelligently and automatically configured using traffic
-heuristics.
-- D. AWS provides the security group functionality as a service, but the customer is
-responsible for correctly and securely configuring their own security groups.
+he**uristics.
+- **D. AWS provides the security group functionality as a service, but the customer is
+responsible for correctly and securely configuring their own security groups.**
 
-
+Answer: D
 
 
 13.Which of the following is NOT a recommended approach for customers trying to achieve
@@ -141,6 +151,8 @@ strong compliance and governance over an entire IT control environment?
 other information, and document all compliance requirements.
 - B. Verify that all control objectives are met and all key controls are designed and
 operating effectively.
-- C. Implement generic control objectives that are not specifically designed to meet their
-organization’s compliance requirements.
+- **C. Implement generic control objectives that are not specifically designed to meet their
+organization’s compliance requirements.**
 - D. Identify and document controls owned by all third parties.
+
+Answer: C
