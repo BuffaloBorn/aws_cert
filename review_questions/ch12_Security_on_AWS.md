@@ -4,9 +4,9 @@
 - B. Decommissioning of storage devices using industry-standard practices
 - C. Background virus scans of Amazon Elastic Block Store (Amazon EBS) volumes and Amazon EBS snapshots
 - D. Replication of data across multiple AWS regions
-- E. Secure wiping of Amazon EBS data when an Amazon EBS volume is unmounted
+- **E. Secure wiping of Amazon EBS data when an Amazon EBS volume is unmounted**
 
-Answer: 
+Answer: E
 
 2.You have launched a Windows Amazon Elastic Compute Cloud (Amazon EC2) instance
 and specified an Amazon EC2 key pair for the instance at launch. Which of the following
@@ -14,16 +14,16 @@ accurately describes how to log in to the instance?
 
 - A. Use the Amazon EC2 key pair to securely connect to the instance via Secure Shell (SSH).
 - B. Use your AWS Identity and Access Management (IAM) user X.509 certificate to log in to the instance.
-- C. Use the Amazon EC2 key pair to decrypt the administrator password and then securely connect to the instance via Remote Desktop Protocol (RDP) as the administrator.
+- **C. Use the Amazon EC2 key pair to decrypt the administrator password and then securely connect to the instance via Remote Desktop Protocol (RDP) as the administrator.**
 - D. A key pair is not needed. Securely connect to the instance via RDP.
 
-Answer: 
+Answer: C
 
 3.A Database security group controls network access to a database instance that is inside a
 Virtual Private Cloud (VPC) and by default allows access from?
 
-- A. Access from any IP address for the standard ports that the database uses is provided
-by default.
+- **A. Access from any IP address for the standard ports that the database uses is provided
+by default.**
 - B. Access from any IP address for any port is provided by default in the DB security
 group.
 - C. No access is provided by default, and any access must be explicitly added with a rule
@@ -31,7 +31,7 @@ to the DB security group.
 - D. Access for the database connection string is provided by default in the DB security
 group.
 
-Answer: 
+Answer: A
 
 4.Which encryption algorithm is used by Amazon Simple Storage Service (Amazon S3) to
 encrypt data at rest with Service-Side Encryption (SSE)?
@@ -68,9 +68,9 @@ leveraging AWS Key Management Service (AWS KMS) to encrypt data-at-rest?
 - A. Amazon Redshift uses a one-tier, key-based architecture for encryption.
 - B. Amazon Redshift uses a two-tier, key-based architecture for encryption.
 - C. Amazon Redshift uses a three-tier, key-based architecture for encryption.
-- D. Amazon Redshift uses a four-tier, key-based architecture for encryption.
+- **D. Amazon Redshift uses a four-tier, key-based architecture for encryption.**
 
-Answer: 
+Answer: D
 
 8.Which of the following Elastic Load Balancing options ensure that the load balancer
 determines which cipher is used for a Secure Sockets Layer (SSL) connection?
