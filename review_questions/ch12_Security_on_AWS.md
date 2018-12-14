@@ -1,25 +1,23 @@
 1.Which is an operational process performed by AWS for data security?
 
-- A. Advanced Encryption Standard (AES)-256 encryption of data stored on any shared
-storage device
+- A. Advanced Encryption Standard (AES)-256 encryption of data stored on any shared storage device
 - B. Decommissioning of storage devices using industry-standard practices
-- C. Background virus scans of Amazon Elastic Block Store (Amazon EBS) volumes and
-Amazon EBS snapshots
+- C. Background virus scans of Amazon Elastic Block Store (Amazon EBS) volumes and Amazon EBS snapshots
 - D. Replication of data across multiple AWS regions
 - E. Secure wiping of Amazon EBS data when an Amazon EBS volume is unmounted
+
+Answer: 
 
 2.You have launched a Windows Amazon Elastic Compute Cloud (Amazon EC2) instance
 and specified an Amazon EC2 key pair for the instance at launch. Which of the following
 accurately describes how to log in to the instance?
 
-- A. Use the Amazon EC2 key pair to securely connect to the instance via Secure Shell
-(SSH).
-- B. Use your AWS Identity and Access Management (IAM) user X.509 certificate to log
-in to the instance.
-- C. Use the Amazon EC2 key pair to decrypt the administrator password and then
-securely connect to the instance via Remote Desktop Protocol (RDP) as the
-administrator.
+- A. Use the Amazon EC2 key pair to securely connect to the instance via Secure Shell (SSH).
+- B. Use your AWS Identity and Access Management (IAM) user X.509 certificate to log in to the instance.
+- C. Use the Amazon EC2 key pair to decrypt the administrator password and then securely connect to the instance via Remote Desktop Protocol (RDP) as the administrator.
 - D. A key pair is not needed. Securely connect to the instance via RDP.
+
+Answer: 
 
 3.A Database security group controls network access to a database instance that is inside a
 Virtual Private Cloud (VPC) and by default allows access from?
@@ -33,36 +31,46 @@ to the DB security group.
 - D. Access for the database connection string is provided by default in the DB security
 group.
 
+Answer: 
+
 4.Which encryption algorithm is used by Amazon Simple Storage Service (Amazon S3) to
 encrypt data at rest with Service-Side Encryption (SSE)?
 
-- A. Advanced Encryption Standard (AES)-256
+- **A. Advanced Encryption Standard (AES)-256**
 - B. RSA 1024
 - C. RSA 2048
 - D. AES-128
+
+Answer: A
 
 5.How many access keys may an AWS Identity and Access Management (IAM) user have active at one time?
 
 - A. 0
 - B. 1
-- C. 2
+- **C. 2**
 - D. 3
+
+Answer: C
 
 6.Which of the following is the name of the security model employed by AWS with its
 customers?
 
 - A. The shared secret model
-- B. The shared responsibility model
+- **B. The shared responsibility model**
 - C. The shared secret key model
 - D. The secret key responsibility model
+
+Answer: B
 
 7.Which of the following describes the scheme used by an Amazon Redshift cluster
 leveraging AWS Key Management Service (AWS KMS) to encrypt data-at-rest?
 
-- A.Amazon Redshift uses a one-tier, key-based architecture for encryption.
+- A. Amazon Redshift uses a one-tier, key-based architecture for encryption.
 - B. Amazon Redshift uses a two-tier, key-based architecture for encryption.
 - C. Amazon Redshift uses a three-tier, key-based architecture for encryption.
 - D. Amazon Redshift uses a four-tier, key-based architecture for encryption.
+
+Answer: 
 
 8.Which of the following Elastic Load Balancing options ensure that the load balancer
 determines which cipher is used for a Secure Sockets Layer (SSL) connection?
@@ -160,25 +168,22 @@ instances on hardware dedicated to a single customer?
 19.Which of the following describes how Amazon Elastic MapReduce (Amazon EMR)
 protects access to the cluster?
 
-- A. The master node and the slave nodes are launched into an Amazon Virtual Private
-Cloud (Amazon VPC).
-- B. The master node supports a Virtual Private Network (VPN) connection from the key
-specified at cluster launch.
+- A. The master node and the slave nodes are launched into an Amazon Virtual Private Cloud (Amazon VPC).
+- B. The master node supports a Virtual Private Network (VPN) connection from the key specified at cluster launch.
 - C. The master node is launched into a security group that allows Secure Shell (SSH)
 and service access, while the slave nodes are launched into a separate security group
 that only permits communication with the master node.
-- D. The master node and slave nodes are launched into a security group that allows SSH
-and service access.
+- D. The master node and slave nodes are launched into a security group that allows SSH and service access.
+
+Answer: 
 
 20.To help prevent data loss due to the failure of any single hardware component, Amazon
 Elastic Block Storage (Amazon EBS) automatically replicates EBS volume data to which
 of the following?
 
-- A. Amazon EBS replicates EBS volume data within the same Availability Zone in a
-region.
-- B. Amazon EBS replicates EBS volume data across other Availability Zones within the
-same region.
-- C. Amazon EBS replicates EBS volume data across Availability Zones in the same
-region and in Availability Zones in one other region.
-- D. Amazon EBS replicates EBS volume data across Availability Zones in the same
-region and in Availability Zones in every other region.
+- **A. Amazon EBS replicates EBS volume data within the same Availability Zone in a region.**
+- B. Amazon EBS replicates EBS volume data across other Availability Zones within the same region.
+- C. Amazon EBS replicates EBS volume data across Availability Zones in the same region and in Availability Zones in one other region.
+- D. Amazon EBS replicates EBS volume data across Availability Zones in the same region and in Availability Zones in every other region.
+
+Answer: A
