@@ -78,39 +78,51 @@ determines which cipher is used for a Secure Sockets Layer (SSL) connection?
 - A. Client Server Cipher Suite
 - B. Server Cipher Only
 - C. First Server Cipher
-- D. Server Order Preference
+- **D. Server Order Preference**
+
+Answer: D
 
 9.Which technology does Amazon WorkSpaces use to provide data security?
 
 - A. Secure Sockets Layer (SSL)/Transport Layer Security (TLS)
 - B. Advanced Encryption Standard (AES)-256
-- C. PC-over-IP (PCoIP)
+- **C. PC-over-IP (PCoIP)**
 - D. AES-128
+
+Answer: C
 
 10.As a Solutions Architect, how should you architect systems on AWS?
 
 - A. You should architect for least cost.
 - B. You should architect your AWS usage to take advantage of Amazon Simple Storage Service’s (Amazon S3) durability.
-- C. You should architect your AWS usage to take advantage of multiple regions and Availability Zones.
+- **C. You should architect your AWS usage to take advantage of multiple regions and Availability Zones.**
 - D. You should architect with Amazon Elastic Compute Cloud (Amazon EC2) Auto Scaling to ensure capacity is available when needed.
+
+Answer: C
 
 11.Which security scheme is used by the AWS Multi-Factor Authentication (AWS MFA) token?
 
-- A. Time-Based One-Time Password (TOTP)
+- **A. Time-Based One-Time Password (TOTP)**
 - B. Perfect Forward Secrecy (PFC)
 - C. Ephemeral Diffie Hellman (EDH)
 - D. Split-Key Encryption (SKE)
+
+Answer: A
 
 12.DynamoDB tables may contain sensitive data that needs to be protected. Which of the
 following is a way for you to protect DynamoDB table content? (Choose 2 answers)
 
 - A. DynamoDB encrypts all data server-side by default so nothing is required.
-- B. DynamoDB can store data encrypted with a client-side encryption library solution
-before storing the data in DynamoD- B.  
+- **B. DynamoDB can store data encrypted with a client-side encryption library solution
+before storing the data in DynamoDB.**  
 - C. DynamoDB obfuscates all data stored so encryption is not required.
 - D. DynamoDB can be used with the AWS Key Management Service to encrypt the data
-before storing the data in DynamoD- B.  
-- E.  DynamoDB should not be used to store sensitive information requiring protection.
+before storing the data in DynamoDB.  
+- **E. DynamoDB should not be used to store sensitive information requiring protection.**
+
+Answer: B, E
+
+Note: [AWS Security Blog](https://aws.amazon.com/blogs/security/how-to-encrypt-and-sign-dynamodb-data-in-your-application/)
 
 13.You have launched an Amazon Linux Elastic Compute Cloud (Amazon EC2) instance
 into EC2-Classic, and the instance has successfully passed the System Status Check and
@@ -119,9 +131,11 @@ Instance Status Check. You attempt to securely connect to the instance via Secur
 after which the login fails. Which of the following is the cause of the failed login?
 
 - A. You are using the wrong private key.
-- B. The permissions for the private key are too insecure for the key to be trusted.
+- **B. The permissions for the private key are too insecure for the key to be trusted.**
 - C. A security group rule is blocking the connection.
 - D. A security group rule has not been associated with the private key.
+
+Answer: B
 
 14.Which of the following public identity providers are supported by Amazon Cognito
 Identity?
@@ -129,7 +143,9 @@ Identity?
 - A. Amazon
 - B. Google
 - C. Facebook
-- D. All of the above
+- **D. All of the above**
+
+Answer: D
 
 15.Which feature of AWS is designed to permit calls to the platform from an Amazon Elastic
 Compute Cloud (Amazon EC2) instance without needing access keys placed on the
@@ -137,16 +153,20 @@ instance?
 
 - A. AWS Identity and Access Management (IAM) instance profile
 - B. IAM groups
-- C. IAM roles
+- **C. IAM roles**
 - D. Amazon EC2 key pairs
+
+Answer: C
 
 16.Which of the following Amazon Virtual Private Cloud (Amazon VPC) elements acts as a
 stateless firewall?
 
 - A. Security group
-- B. Network Access Control List (ACL)
+- **B. Network Access Control List (ACL)**
 - C. Network Address Translation (NAT) instance
 - D. An Amazon VPC endpoint
+
+Answer: B
 
 17.Which of the following is the most recent version of the AWS digital signature
 calculation process?
@@ -154,28 +174,32 @@ calculation process?
 - A. Signature Version 1
 - B. Signature Version 2
 - C. Signature Version 3
-- D. Signature Version 4
+- **D. Signature Version 4**
+
+Answer: D
 
 18.Which of the following is the name of the feature within Amazon Virtual Private Cloud
 (Amazon VPC) that allows you to launch Amazon Elastic Compute Cloud (Amazon EC2)
 instances on hardware dedicated to a single customer?
 
 - A. Amazon VPC-based tenancy
-- B. Dedicated tenancy
+- **B. Dedicated tenancy**
 - C. Default tenancy
 - D. Host-based tenancy
+
+Answer: B
 
 19.Which of the following describes how Amazon Elastic MapReduce (Amazon EMR)
 protects access to the cluster?
 
 - A. The master node and the slave nodes are launched into an Amazon Virtual Private Cloud (Amazon VPC).
 - B. The master node supports a Virtual Private Network (VPN) connection from the key specified at cluster launch.
-- C. The master node is launched into a security group that allows Secure Shell (SSH)
+- **C. The master node is launched into a security group that allows Secure Shell (SSH)
 and service access, while the slave nodes are launched into a separate security group
-that only permits communication with the master node.
+that only permits communication with the master node.**
 - D. The master node and slave nodes are launched into a security group that allows SSH and service access.
 
-Answer: 
+Answer: C
 
 20.To help prevent data loss due to the failure of any single hardware component, Amazon
 Elastic Block Storage (Amazon EBS) automatically replicates EBS volume data to which
